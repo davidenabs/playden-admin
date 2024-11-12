@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 import { bookingImg } from '../assets/images';
 
 // Sample cancellation data (Replace with actual data fetching if needed)
@@ -14,7 +14,7 @@ const cancellationDetails = {
 };
 
 const CancellationDetails: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
+  // const { id } = useParams<{ id: string }>();
 
   return (
     <div className="bg-white rounded-lg shadow-md relative ml-72 p-8 mt-24">
